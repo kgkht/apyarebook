@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Apyar Ebooks with PDF version, Myanmar Apyar Ebooks">
+    <meta name="author" content="Apyar Chit Thu">
+
+    <title>Apyar Ebooks</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="/media/css/bootstrap.min.css" rel="stylesheet">
+
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="/media/css/album.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+     {% include 'nav.html' %}     
+
+     
+
+    <main role="main">
+      {% block content %}
+
+      {% endblock %}
+    </main>
+
+</div>
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="text-center"> &copy; White BOOK Library {% now 'Y' %} </p>
+  </div>
+</footer>
+<script src="/media/js/jquery.slim.min.js" type='text/javascript'></script>
+<script src="/media/js/bootstrap.min.js" type='text/javascript'> </script>
+  </body>
+</html>
